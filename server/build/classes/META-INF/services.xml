@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file was auto-generated from WSDL -->
+<!-- by the Apache Axis2 version: 1.6.1  Built on : Aug 31, 2011 (12:22:40 CEST) -->
+<serviceGroup>
+    <service name="SeqPatternMiner">
+        <messageReceivers>
+            <messageReceiver mep="http://www.w3.org/ns/wsdl/in-out" class="edu.indiana.d2i.seqmining.webservice.server.SeqPatternMinerMessageReceiverInOut"/>
+        </messageReceivers>
+        <parameter name="ServiceClass">edu.indiana.d2i.seqmining.webservice.server.SeqPatternMinerSkeleton</parameter>
+        <parameter name="useOriginalwsdl">true</parameter>
+        <parameter name="modifyUserWSDLPortAddress">true</parameter>
+        <operation name="seqPatternMiningParaView" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://webservice.seqmining.d2i.indiana.edu">
+            <actionMapping>urn:seqPatternMiningParaView</actionMapping>
+            <outputActionMapping>urn:seqPatternMiningParaViewResponse</outputActionMapping>
+        </operation>
+        <operation name="seqPatternMining" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://webservice.seqmining.d2i.indiana.edu">
+            <actionMapping>urn:seqPatternMining</actionMapping>
+            <outputActionMapping>urn:seqPatternMiningResponse</outputActionMapping>
+        </operation>
+    </service>
+</serviceGroup>
