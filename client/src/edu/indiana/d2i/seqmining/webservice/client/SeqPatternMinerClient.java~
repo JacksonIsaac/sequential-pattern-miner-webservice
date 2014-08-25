@@ -99,7 +99,6 @@ public class SeqPatternMinerClient {
 			System.out.println(String.format("Read %s=%s", propName, value));
 
 			SeqPatternMinerStub.Parameter parameter = new SeqPatternMinerStub.Parameter();
-
 			parameter.setName(propName);
 			parameter.setValue(value);
 

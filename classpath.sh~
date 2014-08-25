@@ -4,6 +4,7 @@
 # It must be run by source its content to modify current environment
 #
 
+
 LOCALCLASSPATH=.
 LOCALCLASSPATH=`echo lib/*.jar | tr ' ' ':'`:$LOCALCLASSPATH
 

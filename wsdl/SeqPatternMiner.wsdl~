@@ -1,4 +1,3 @@
-<!-- wsdl file describing web services provisioned by pattern miner -->
 <?xml version="1.0" encoding="UTF-8"?>
 <wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
 	xmlns:ns1="http://org.apache.axis2/xsd" xmlns:ns="http://webservice.seqmining.d2i.indiana.edu"

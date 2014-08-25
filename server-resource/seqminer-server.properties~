@@ -1,18 +1,14 @@
 # script home that hosts scripts
 seq.pattern.mining.scripts.home=/u/username/twister-0.9/samples/sequential-pattern-mining
 
-
 # scripts to run, separated by ';'
 seq.pattern.mining.scripts.name=run_clustering.sh;run_apriori.sh;run_prob_adjust.sh;run_visualization.sh
-
 
 # configuration file of sequential pattern mining
 seq.pattern.mining.config.file.path=/u/username/twister-0.9/samples/sequential-pattern-mining/conf/seqmining.properties
 
-
 # figure suffix
 seq.pattern.figure.suffix=.png
-
 
 # directory that hosts resulting figures
 seq.pattern.figures.dir=/u/username/twister-0.9/samples/sequential-pattern-mining/figures
